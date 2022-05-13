@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/productivity-app/static/js/main.df82d703.js",
+    "main.js": "/productivity-app/static/js/main.3fe796e9.js",
     "index.html": "/productivity-app/index.html",
-    "main.df82d703.js.map": "/productivity-app/static/js/main.df82d703.js.map"
+    "main.3fe796e9.js.map": "/productivity-app/static/js/main.3fe796e9.js.map"
   },
   "entrypoints": [
-    "static/js/main.df82d703.js"
+    "static/js/main.3fe796e9.js"
   ]
 }
