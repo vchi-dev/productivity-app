@@ -59,7 +59,6 @@ function App() {
           <EditablePreview width={[300,400,500,650,800]} height={400}/>
           <EditableTextarea width={[300,400,500,650,800]} height={400}/>
         </Editable>
-        <Music></Music>
       </VStack>
     </div>
   );
