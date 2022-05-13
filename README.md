@@ -1,3 +1,16 @@
+## Productivity App
+A productivity-driven React.js application using Chakra UI that has time and weather functionality.\
+Hi there! 👋 This is Productivity App, a web application I wanted to make for productivity.\
+You can visit it at: <a href="https://vchi-dev.github.io/productivity-app/">vchi-dev.github.io/productivity-app</a>
+<br />
+
+If you have questions or concerns, feel free to contact me at my email.\
+My Email: vchi.dev@proto.me
+
+Thank You (● ◡ ●)
+
+If you want to run it locally yourself:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
