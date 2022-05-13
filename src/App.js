@@ -5,7 +5,6 @@ import { Editable, EditablePreview, EditableTextarea } from '@chakra-ui/editable
 import { DarkMode, GitHub, LightMode, LinkedIn, Work } from '@mui/icons-material';
 import Info from './components/Info.js';
 import Task from './components/Task.js';
-import Music from './components/Music.js';
 
 function App() {
   const {colorMode, toggleColorMode} = useColorMode();
