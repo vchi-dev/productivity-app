@@ -1,5 +1,4 @@
 import { useColorMode } from '@chakra-ui/color-mode';
-import { useMediaQuery } from '@chakra-ui/media-query';
 import { Flex, Stack, Center } from '@chakra-ui/layout';
 import { Text, Input, InputGroup, InputLeftElement, Switch, FormLabel } from '@chakra-ui/react';
 import React from 'react';
@@ -79,13 +78,13 @@ function Info() {
           </InputGroup>
         </Center>
         <Center ml={[0,0,3,4]} w={50}>
-          <Text fontSize={["sm","md","lg"]}>{(weather !== '') ? Math.round(temperature)+"°"+scale : "--°"+scale}</Text>
+          <Text fontSize={["sm","md","lg"]} fontWeight="semibold">{(weather !== '') ? Math.round(temperature)+"°"+scale : "--°"+scale}</Text>
         </Center>
         <Center ml={[-3,2,4,6]} w={65}>
-          <Text fontSize={["sm","md","lg"]}>{(weather !== '') ? weather : "Empty"}</Text>
+          <Text fontSize={["sm","md","lg"]} fontWeight="semibold">{(weather !== '') ? weather : "Empty"}</Text>
         </Center>
         <Center ml={[-6,0,2,4]} mr={[-10,0]} w={160}>
-          <FormLabel htmlFor='isChecked' mt={2} fontSize={["sm","md","lg"]}>Fahrenheit:</FormLabel>
+          <FormLabel htmlFor='isChecked' mt={2} fontSize={["sm","md","lg"]} fontWeight="light">Fahrenheit:</FormLabel>
           <Switch size={"md"} onChange={handleScale}></Switch>
         </Center>
         {/* <Text fontSize="3xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text">Weather</Text> */}
